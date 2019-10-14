@@ -168,7 +168,7 @@ struct scan_control {
 /*
  * From 0 .. 100.  Higher means more swappy.
  */
-int vm_swappiness = 0;
+int vm_swappiness = 60;
 /*
  * time for kswapd to breath between each scanning loop
  */
